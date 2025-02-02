@@ -1,0 +1,120 @@
+.img {
+  width: 323px;
+  height: 248px;
+  background-size: cover;
+  border-radius: 19px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 14px;
+  top: 12px;
+}
+
+.btn {
+  position: relative;
+  color: var(--white-color);
+  padding-left: 44px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 34px;
+}
+
+.point {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  display: flex;
+  margin-right: 64px;
+  margin-left: 64px;
+  gap: 48px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-width: 242px;
+  gap: 30px;
+}
+
+.container {
+  width: 800px;
+}
+
+.sign {
+  color: #9796a1;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.price {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.amount {
+  color: var(--text-color);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 25.87px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.rating {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.stars {
+  color: var(--text-color);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 25.87px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.ingridients {
+  margin-top: 15px;
+  color: var(--text-secondary-color);
+  font-size: 14.57px;
+  font-weight: 600;
+  line-height: 19.84px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.ingredient {
+  color: var(--text-secondary-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.84px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}

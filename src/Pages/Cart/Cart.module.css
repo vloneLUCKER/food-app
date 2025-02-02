@@ -1,0 +1,49 @@
+.headling {
+  margin-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 13px;
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  /* margin-bottom: 70px; */
+}
+
+.separate {
+  border: solid 1px #f1f2f3;
+}
+
+.amount {
+  color: #bebebe;
+}
+
+.accuracy {
+  color: #9796a1;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.contain {
+  max-width: 512px;
+}
+
+.button {
+  width: 248px;
+}
+
+.button-container {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
