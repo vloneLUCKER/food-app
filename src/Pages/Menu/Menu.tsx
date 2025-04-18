@@ -8,10 +8,10 @@ import axios, { AxiosError } from "axios";
 import { MenuList } from "./MenuList/MenuList";
 
 function Menu() {
-  const [products, setProducts] = useState<Product[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | undefined>();
   const [filter, setFilter] = useState<string>();
+  const [products, setProducts] = useState<Product[]>([]);
 
   const getMenu = async (name?: string) => {
     try {
@@ -31,6 +31,7 @@ function Menu() {
       return;
     }
 
+    //yo
     // try {
     //   const res = await fetch(`${PREFIX}/products`);
     //   if (!res.ok) {
