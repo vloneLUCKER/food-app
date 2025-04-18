@@ -4,7 +4,7 @@ import styles from "./Menu.module.css";
 import { PREFIX } from "../../helpers/api";
 import { Product } from "../../interfaces/product.interface";
 import { ChangeEvent, useEffect, useState } from "react";
-import axios, { all, AxiosError } from "axios";
+import axios, { AxiosError } from "axios";
 import { MenuList } from "./MenuList/MenuList";
 
 function Menu() {
