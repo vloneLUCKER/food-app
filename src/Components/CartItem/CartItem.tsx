@@ -27,7 +27,7 @@ export function CartItem(props: CartItemProps) {
     <div className={styles["item"]}>
       <div
         className={styles["image"]}
-        style={{ backgroundImage: `url("/pizza.png")` }}
+        style={{ backgroundImage: `url(${props.image})` }}
       ></div>
       <div className={styles["description"]}>
         <div className={styles["name"]}>{props.name}</div>

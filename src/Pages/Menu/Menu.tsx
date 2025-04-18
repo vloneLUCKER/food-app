@@ -4,7 +4,7 @@ import styles from "./Menu.module.css";
 import { PREFIX } from "../../helpers/api";
 import { Product } from "../../interfaces/product.interface";
 import { ChangeEvent, useEffect, useState } from "react";
-import axios, { AxiosError } from "axios";
+import axios, { all, AxiosError } from "axios";
 import { MenuList } from "./MenuList/MenuList";
 
 function Menu() {
@@ -53,7 +53,7 @@ function Menu() {
   }, [filter]);
 
   return (
-    <>
+    <div className={styles["container"]}>
       <div className={styles["head"]}>
         <Headling>Menu</Headling>
         <Search
@@ -67,7 +67,7 @@ function Menu() {
         {!isLoading && products.length === 0 && <>Nothing Found</>}
         {isLoading && <>loading products...</>}
       </div>
-    </>
+    </div>
   );
 }
 
